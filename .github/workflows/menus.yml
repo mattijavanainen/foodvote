@@ -1,0 +1,26 @@
+name: Update menus
+
+on:
+  schedule:
+    # 05:00 and 07:00 UTC on weekdays = before 10:30 in Helsinki all year
+    - cron: "0 5,7 * * 1-5"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - run: node scripts/fetch-menus.mjs
+      - name: Commit menus.json if it changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898283+github-actions[bot]@users.noreply.github.com"
+          git add menus.json
+          git diff --cached --quiet || (git commit -m "Update menus" && git push)

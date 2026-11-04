@@ -1,0 +1,367 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Hervanta lunch vote</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Familjen+Grotesk:wght@500;700&family=Atkinson+Hyperlegible:wght@400;700&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #EEF3F1; --surface: #FFFFFF; --ink: #12302A; --muted: #5B706A;
+    --line: #C9D6D1; --accent: #B3263E; --accent-ink: #FFFFFF; --fill: #D3E4DC;
+    --display: "Familjen Grotesk", "Helvetica Neue", Arial, sans-serif;
+    --body: "Atkinson Hyperlegible", "Segoe UI", system-ui, sans-serif;
+    box-sizing: border-box;
+    padding-top: env(safe-area-inset-top, 0px);
+    padding-bottom: env(safe-area-inset-bottom, 0px);
+    color-scheme: light;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg: #0F1E1B; --surface: #152824; --ink: #E6EFEC; --muted: #93A9A2;
+      --line: #2A3F3A; --accent: #E8566C; --accent-ink: #1A0B0E; --fill: #203A33;
+      color-scheme: dark;
+    }
+  }
+  :root[data-theme="dark"] {
+    --bg: #0F1E1B; --surface: #152824; --ink: #E6EFEC; --muted: #93A9A2;
+    --line: #2A3F3A; --accent: #E8566C; --accent-ink: #1A0B0E; --fill: #203A33;
+    color-scheme: dark;
+  }
+  *, *::before, *::after { box-sizing: inherit; }
+  html { scroll-padding-top: env(safe-area-inset-top, 0px); }
+  body {
+    margin: 0; background: var(--bg); color: var(--ink);
+    font: 400 1.0625rem/1.55 var(--body);
+  }
+  main { max-width: 38rem; margin: 0 auto; padding: 2rem 1.25rem 3rem; }
+  header { display: flex; justify-content: space-between; align-items: baseline; gap: 1rem; color: var(--muted); font-size: .95rem; }
+  header strong { color: var(--ink); font-family: var(--display); font-weight: 700; font-size: 1.05rem; }
+  .status { margin: 2.5rem 0 .5rem; font: 700 clamp(2.4rem, 9vw, 3.75rem)/1.02 var(--display); letter-spacing: -0.02em; }
+  .sub { margin: 0 0 2rem; color: var(--muted); max-width: 32rem; }
+  .clock { font-variant-numeric: tabular-nums; }
+
+  .options { list-style: none; margin: 0; padding: 0; border-top: 2px solid var(--ink); }
+  .opt {
+    position: relative; display: grid; grid-template-columns: 1fr auto; align-items: center; gap: .25rem 1rem;
+    width: 100%; padding: 1.1rem .9rem .6rem; border: 0;
+    background: transparent; color: inherit; text-align: left; font: inherit; cursor: pointer; overflow: hidden;
+  }
+  .opt:disabled { cursor: default; }
+  .opt .bar { position: absolute; inset: 0 auto 0 0; width: 0; background: var(--fill); transition: width .6s cubic-bezier(.2,.7,.2,1); z-index: 0; }
+  .opt > *:not(.bar) { position: relative; z-index: 1; }
+  .opt .name { font: 700 1.6rem/1.1 var(--display); }
+  .opt .where { grid-column: 1; color: var(--muted); font-size: .92rem; }
+  .opt .count { grid-row: 1 / span 2; grid-column: 2; font: 700 1.6rem/1 var(--display); font-variant-numeric: tabular-nums; }
+  .opt .pick { grid-row: 1 / span 2; grid-column: 2; width: 1.6rem; height: 1.6rem; border: 2px solid var(--ink); border-radius: 50%; }
+  .opt[aria-pressed="true"] .pick { background: var(--accent); border-color: var(--accent); box-shadow: inset 0 0 0 4px var(--bg); }
+  .opt[aria-pressed="true"] { background: color-mix(in srgb, var(--accent) 8%, transparent); }
+  .opt.mine .name::after { content: "your vote"; margin-left: .6rem; vertical-align: middle; font: 400 .8rem var(--body); color: var(--accent); }
+  .opt.winner .name { color: var(--accent); }
+  .opt:focus-visible, .btn:focus-visible, a:focus-visible { outline: 3px solid var(--accent); outline-offset: 2px; }
+  .opt:not(:disabled):hover { background: color-mix(in srgb, var(--ink) 5%, transparent); }
+  .options > li { border-bottom: 1px solid var(--line); }
+
+  .menu-toggle {
+    display: inline-flex; align-items: center; gap: .5rem; margin: 0 0 .7rem .9rem; padding: .25rem .1rem;
+    border: 0; background: none; color: var(--muted); font: 400 .92rem var(--body); cursor: pointer;
+  }
+  .menu-toggle .sym {
+    display: grid; place-items: center; width: 1.35rem; height: 1.35rem; border: 1.5px solid currentColor; border-radius: 50%;
+    font: 700 1rem/1 var(--display); transition: transform .2s ease;
+  }
+  .menu-toggle[aria-expanded="true"] { color: var(--ink); }
+  .menu-toggle[aria-expanded="true"] .sym { transform: rotate(45deg); }
+  .menu-toggle:hover { color: var(--ink); }
+  .menu-toggle:focus-visible { outline: 3px solid var(--accent); outline-offset: 2px; }
+  .menu-panel { padding: 0 .9rem 1.1rem; }
+  .menu-panel[hidden] { display: none; }
+  .menu-section + .menu-section { margin-top: .85rem; }
+  .menu-section h3 { margin: 0 0 .15rem; font: 700 .95rem var(--display); color: var(--muted); }
+  .menu-section ul { list-style: none; margin: 0; padding: 0; }
+  .menu-section li { margin: .1rem 0; }
+  .diets { color: var(--muted); font-size: .85rem; margin-left: .35rem; white-space: nowrap; }
+  .price { color: var(--muted); font-size: .85rem; }
+  .menu-empty { margin: 0; color: var(--muted); font-size: .95rem; }
+  @media (prefers-reduced-motion: reduce) { .menu-toggle .sym { transition: none; } }
+
+  .actions { display: flex; flex-wrap: wrap; gap: .75rem 1.25rem; align-items: center; margin-top: 1.5rem; }
+  .btn {
+    appearance: none; border: 0; border-radius: .4rem; padding: .85rem 1.4rem;
+    background: var(--accent); color: var(--accent-ink); font: 700 1.05rem var(--display); cursor: pointer;
+  }
+  .btn:disabled { background: var(--line); color: var(--muted); cursor: not-allowed; }
+  a { color: var(--ink); text-underline-offset: 3px; }
+  .note { margin-top: 1rem; color: var(--muted); font-size: .92rem; min-height: 1.4em; }
+  .note.err { color: var(--accent); }
+
+  footer { margin-top: 2.5rem; color: var(--muted); font-size: .85rem; }
+  @media (prefers-reduced-motion: reduce) { .opt .bar { transition: none; } }
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <strong>Hervanta lunch vote</strong>
+    <span id="today"></span>
+  </header>
+
+  <h1 class="status" id="status">Loading…</h1>
+  <p class="sub" id="sub"></p>
+
+  <ul class="options" id="options"></ul>
+
+  <div class="actions">
+    <button class="btn" id="cast" type="button" hidden disabled>Cast vote</button>
+  </div>
+  <p class="note" id="note" role="status" aria-live="polite"></p>
+
+
+  <footer>Voting runs 10:30–11:00, Monday to Friday, Finnish time. Results update live for everyone.</footer>
+</main>
+
+<script type="module">
+import { initializeApp } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-app.js";
+import {
+  getFirestore, collection, addDoc, query, where, onSnapshot, serverTimestamp,
+} from "https://www.gstatic.com/firebasejs/10.12.2/firebase-firestore.js";
+
+// 1. Paste your Firebase web config here (Project settings > General > Your apps).
+const firebaseConfig = {
+  apiKey: "PASTE_API_KEY",
+  authDomain: "PASTE_PROJECT.firebaseapp.com",
+  projectId: "PASTE_PROJECT_ID",
+  storageBucket: "PASTE_PROJECT.appspot.com",
+  messagingSenderId: "PASTE_SENDER_ID",
+  appId: "PASTE_APP_ID",
+};
+
+const RESTAURANTS = [
+  { id: "reaktori", name: "Reaktori", where: "Kampusareena" },
+  { id: "hertsi",   name: "Hertsi",   where: "Tietotalo" },
+  { id: "newton",   name: "Newton",   where: "Konetalo" },
+];
+const OPEN_MIN = 10 * 60 + 30, CLOSE_MIN = 11 * 60;
+const $ = (id) => document.getElementById(id);
+
+// Helsinki wall-clock time, whatever the viewer's own time zone is.
+const fmt = new Intl.DateTimeFormat("en-GB", {
+  timeZone: "Europe/Helsinki", year: "numeric", month: "2-digit", day: "2-digit",
+  hour: "2-digit", minute: "2-digit", second: "2-digit", weekday: "short", hourCycle: "h23",
+});
+function now() {
+  const p = Object.fromEntries(fmt.formatToParts(new Date()).map(x => [x.type, x.value]));
+  const mins = +p.hour * 60 + +p.minute;
+  return {
+    day: +p.year * 10000 + +p.month * 100 + +p.day, // e.g. 20261104, matches the security rules
+    mins, secs: mins * 60 + +p.second,
+    weekend: p.weekday === "Sat" || p.weekday === "Sun",
+  };
+}
+function phase(t) {
+  if (t.weekend) return "weekend";
+  if (t.mins < OPEN_MIN) return "before";
+  if (t.mins < CLOSE_MIN) return "open";
+  return "closed";
+}
+const mmss = (s) => `${Math.floor(s / 60)}:${String(s % 60).padStart(2, "0")}`;
+const nameOf = (id) => (RESTAURANTS.find(r => r.id === id) || {}).name || id;
+
+// ---- Menus (menus.json is refreshed each weekday morning by a GitHub Action) ----
+function renderMenus(data) {
+  const today = now(), iso = String(today.day).replace(/(\d{4})(\d{2})(\d{2})/, "$1-$2-$3");
+  RESTAURANTS.forEach(r => {
+    const panel = document.getElementById("menu-" + r.id);
+    panel.replaceChildren();
+    const entry = data && data.date === iso ? data.restaurants && data.restaurants[r.id] : null;
+    if (!entry || !entry.sections || !entry.sections.length) {
+      const p = document.createElement("p");
+      p.className = "menu-empty";
+      p.append(!data ? "Menus couldn’t be loaded. " : data.date !== iso ? "Today’s menu hasn’t been loaded yet. " : "No menu found for today. ");
+      const a = document.createElement("a");
+      a.href = "https://unisafka.fi/tty/"; a.target = "_blank"; a.rel = "noopener";
+      a.textContent = "Check Unisafka";
+      p.append(a, ".");
+      panel.append(p);
+      return;
+    }
+    entry.sections.forEach(sec => {
+      const div = document.createElement("div");
+      div.className = "menu-section";
+      if (sec.title) {
+        const h = document.createElement("h3");
+        h.textContent = sec.title;
+        if (sec.price) { const pr = document.createElement("span"); pr.className = "price"; pr.textContent = " " + sec.price; h.append(pr); }
+        div.append(h);
+      }
+      const ul = document.createElement("ul");
+      (sec.items || []).forEach(it => {
+        const li = document.createElement("li");
+        li.textContent = it.name;
+        if (it.diets) { const d = document.createElement("span"); d.className = "diets"; d.textContent = it.diets; li.append(d); }
+        ul.append(li);
+      });
+      div.append(ul);
+      panel.append(div);
+    });
+  });
+}
+async function loadMenus() {
+  try {
+    const res = await fetch("menus.json?t=" + Date.now(), { cache: "no-store" });
+    if (!res.ok) throw new Error(res.status);
+    renderMenus(await res.json());
+  } catch (e) {
+    console.error("Menus:", e);
+    renderMenus(null);
+  }
+}
+
+const state = { db: null, configured: false, ready: false, stale: false, votes: [], dayKey: null, selected: null, sending: false, error: "" };
+
+// Remembers this browser's pick so it shows results instead of asking again. Not enforced.
+const localVote = (day) => { try { return localStorage.getItem("lunchvote:" + day); } catch { return null; } };
+const setLocalVote = (day, c) => { try { localStorage.setItem("lunchvote:" + day, c); } catch {} };
+
+const list = $("options");
+RESTAURANTS.forEach(r => {
+  const li = document.createElement("li");
+  li.innerHTML = `<button class="opt" type="button" data-id="${r.id}" aria-pressed="false">
+    <span class="bar"></span><span class="name"></span><span class="where"></span>
+    <span class="pick" aria-hidden="true"></span><span class="count" hidden></span></button>
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="menu-${r.id}">
+      <span class="sym" aria-hidden="true">+</span><span class="label">Today’s menu</span></button>
+    <div class="menu-panel" id="menu-${r.id}" hidden><p class="menu-empty">Loading menu…</p></div>`;
+  li.querySelector(".name").textContent = r.name;
+  li.querySelector(".where").textContent = r.where;
+  li.querySelector(".opt").addEventListener("click", () => { state.selected = r.id; state.error = ""; render(); });
+  const toggle = li.querySelector(".menu-toggle"), panel = li.querySelector(".menu-panel");
+  toggle.addEventListener("click", () => {
+    const open = toggle.getAttribute("aria-expanded") !== "true";
+    toggle.setAttribute("aria-expanded", String(open));
+    toggle.querySelector(".label").textContent = open ? "Hide menu" : "Today’s menu";
+    panel.hidden = !open;
+  });
+  list.appendChild(li);
+});
+$("cast").addEventListener("click", castVote);
+
+function tally() {
+  const c = Object.fromEntries(RESTAURANTS.map(r => [r.id, 0]));
+  state.votes.forEach(v => { if (c[v.choice] !== undefined) c[v.choice]++; });
+  return c;
+}
+
+function render() {
+  const t = now(), ph = phase(t);
+  $("today").textContent = new Date().toLocaleDateString("en-US", { timeZone: "Europe/Helsinki", weekday: "long", month: "long", day: "numeric" });
+  const counts = tally(), total = state.votes.length;
+  const mine = localVote(t.day);
+  const max = Math.max(0, ...Object.values(counts));
+  const leaders = RESTAURANTS.filter(r => max > 0 && counts[r.id] === max);
+  const showCounts = ph === "closed" || !!mine;
+  const canVote = ph === "open" && !mine && state.ready && !!state.db;
+
+  let status, sub = "";
+  if (!state.configured) {
+    status = "Add your Firebase config";
+    sub = "Paste your project’s web config into index.html to turn on voting.";
+  } else if (ph === "weekend") {
+    status = "No vote on weekends";
+    sub = "The next vote opens Monday at 10:30.";
+  } else if (ph === "before") {
+    const left = OPEN_MIN * 60 - t.secs;
+    status = left > 3600 ? "Voting opens at 10:30" : `Voting opens in <span class="clock">${mmss(left)}</span>`;
+    sub = "Check the menus now, then come back to pick a restaurant.";
+  } else if (ph === "open") {
+    status = mine ? `You picked ${nameOf(mine)}` : `Pick a restaurant. <span class="clock">${mmss(CLOSE_MIN * 60 - t.secs)}</span> left`;
+    sub = mine ? `Voting closes at 11:00. ${total} ${total === 1 ? "vote" : "votes"} so far.` : "Tap an option, then cast your vote.";
+  } else if (!state.ready) {
+    status = "Counting votes…";
+  } else if (total === 0) {
+    status = "Nobody voted today"; sub = "Voting opens again on the next weekday at 10:30.";
+  } else if (leaders.length === 1) {
+    status = `Today it’s ${leaders[0].name}`;
+    sub = `${counts[leaders[0].id]} of ${total} ${total === 1 ? "vote" : "votes"}. Voting opens again on the next weekday at 10:30.`;
+  } else {
+    status = `Tie: ${leaders.map(l => l.name).join(" and ")}`;
+    sub = `${max} votes each, ${total} in total. Settle it on the way out.`;
+  }
+  $("status").innerHTML = status;
+  $("sub").textContent = sub;
+
+  list.querySelectorAll(".opt").forEach(btn => {
+    const id = btn.dataset.id;
+    btn.disabled = !canVote;
+    btn.setAttribute("aria-pressed", String(canVote && state.selected === id));
+    btn.querySelector(".pick").hidden = !canVote;
+    const cnt = btn.querySelector(".count");
+    cnt.hidden = !showCounts || !state.ready;
+    cnt.textContent = counts[id];
+    btn.querySelector(".bar").style.width = showCounts && total ? `${(counts[id] / total) * 100}%` : "0";
+    btn.classList.toggle("mine", mine === id);
+    btn.classList.toggle("winner", ph === "closed" && leaders.length === 1 && leaders[0].id === id);
+  });
+
+  const cast = $("cast");
+  cast.hidden = !canVote;
+  cast.disabled = !state.selected || state.sending;
+  cast.textContent = state.sending ? "Casting vote…" : state.selected ? `Cast vote for ${nameOf(state.selected)}` : "Cast vote";
+
+  const note = $("note");
+  note.classList.toggle("err", !!state.error);
+  note.textContent = state.error || (state.stale ? "Results can’t be reached right now and may be out of date." : "");
+}
+
+async function castVote() {
+  const t = now();
+  if (phase(t) !== "open" || localVote(t.day) || !state.selected || !state.db) return;
+  state.sending = true; state.error = ""; render();
+  try {
+    await addDoc(collection(state.db, "votes"), { day: t.day, choice: state.selected, at: serverTimestamp() });
+    setLocalVote(t.day, state.selected);
+  } catch (e) {
+    console.error(e);
+    state.error = e && e.code === "permission-denied"
+      ? "The vote was rejected. Voting is only open 10:30–11:00 on weekdays."
+      : "Your vote wasn’t saved. Check your connection and try again.";
+  }
+  state.sending = false; render();
+}
+
+let unsub = null, loadTimer = null;
+function subscribe(day) {
+  if (unsub) unsub();
+  state.dayKey = day; state.ready = false; state.votes = [];
+  clearTimeout(loadTimer);
+  loadTimer = setTimeout(() => { state.stale = true; render(); }, 10000);
+  unsub = onSnapshot(query(collection(state.db, "votes"), where("day", "==", day)), snap => {
+    state.votes = snap.docs.map(d => d.data());
+    state.ready = true;
+    if (!snap.metadata.fromCache) { clearTimeout(loadTimer); state.stale = false; }
+    render();
+  }, err => {
+    console.error(err);
+    clearTimeout(loadTimer); state.ready = true; state.stale = true; render();
+  });
+}
+
+state.configured = !firebaseConfig.apiKey.startsWith("PASTE");
+if (state.configured) {
+  state.db = getFirestore(initializeApp(firebaseConfig));
+  subscribe(now().day);
+}
+render();
+let menuDay = now().day;
+loadMenus();
+setInterval(() => {
+  const t = now();
+  if (state.db && t.day !== state.dayKey) subscribe(t.day);
+  if (t.day !== menuDay) { menuDay = t.day; loadMenus(); }
+  render();
+}, 1000);
+</script>
+</body>
+</html>
