@@ -1,1 +1,222 @@
-{ "date": "", "restaurants": {} }
+{
+  "date": "2026-11-04",
+  "updated": "2026-11-04T11:03:34.021Z",
+  "restaurants": {
+    "reaktori": {
+      "sections": [
+        {
+          "title": "So Vegan.",
+          "price": "",
+          "items": [
+            {
+              "name": "Indian-style mushroom and coconut curry",
+              "diets": "*, G, ILM, L, M, Veg, VS"
+            },
+            {
+              "name": "Indian-style spicy rice",
+              "diets": "G, L, M, Veg"
+            }
+          ]
+        },
+        {
+          "title": "So Green Soup.",
+          "price": "",
+          "items": [
+            {
+              "name": "Indian bean and vegetable soup and turkish yogurt",
+              "diets": "A, G, ILM, L, VS"
+            }
+          ]
+        },
+        {
+          "title": "So Fresh.",
+          "price": "",
+          "items": [
+            {
+              "name": "Halloum cheese",
+              "diets": "A, G"
+            }
+          ]
+        },
+        {
+          "title": "So Good.",
+          "price": "",
+          "items": [
+            {
+              "name": "Chicken in tandoori and coconut sauce",
+              "diets": "A, G, L, M, VS"
+            },
+            {
+              "name": "Indian-style spicy rice",
+              "diets": "G, L, M, Veg, VS"
+            }
+          ]
+        },
+        {
+          "title": "So Hungry.",
+          "price": "",
+          "items": [
+            {
+              "name": "Indian-style saithe fillet in yoghurt 1pc/portion 3€/extra pc",
+              "diets": "*, A, G, ILM, L"
+            },
+            {
+              "name": "Roasted curry and garlic potatoes",
+              "diets": "*, G, ILM, L, M, Veg, VS"
+            }
+          ]
+        },
+        {
+          "title": "So Sweet.",
+          "price": "1.15",
+          "items": [
+            {
+              "name": "Mango lassi",
+              "diets": "A, G, L"
+            }
+          ]
+        },
+        {
+          "title": "Pop Up Grill lunch (Break Cafe 10:30-13:30)",
+          "price": "",
+          "items": [
+            {
+              "name": "Grilled pork steak",
+              "diets": "*, G, L, M"
+            },
+            {
+              "name": "Dark horseradish sauce",
+              "diets": "A, G, L, M"
+            },
+            {
+              "name": "Roasted potatoes",
+              "diets": "*, G, ILM, L, M, Veg"
+            },
+            {
+              "name": "Vegetables of the season",
+              "diets": "G, L, M, Veg"
+            }
+          ]
+        },
+        {
+          "title": "Pop Up Grill salad (Break Cafe 10:30-13:30)",
+          "price": "",
+          "items": [
+            {
+              "name": "Warm smoked rainbow trout salad and marinated potatoes",
+              "diets": "A, G, L, M"
+            }
+          ]
+        },
+        {
+          "title": "So Bread. (Break Cafe)",
+          "price": "",
+          "items": [
+            {
+              "name": "Chorizo focaccia",
+              "diets": "A, VL"
+            }
+          ]
+        }
+      ]
+    },
+    "hertsi": {
+      "sections": [
+        {
+          "title": "Vegaani lounas",
+          "price": "3,10 € / 6,60 € / 9,60 €",
+          "items": [
+            {
+              "name": "Butter tofu with rice",
+              "diets": "G, M"
+            }
+          ]
+        },
+        {
+          "title": "Lounas Uni 1",
+          "price": "3,10 € / 6,60 € / 9,60 €",
+          "items": [
+            {
+              "name": "Minced beef bolognese sauce with penne pasta",
+              "diets": "M"
+            }
+          ]
+        },
+        {
+          "title": "Lounas 2 Uni",
+          "price": "3,10 € / 6,60 € / 9,60 €",
+          "items": [
+            {
+              "name": "Ham and bacon hash",
+              "diets": "G, M"
+            }
+          ]
+        },
+        {
+          "title": "Keitto-vegaani",
+          "price": "3,10 € / 6,60 € / 8,50 €",
+          "items": [
+            {
+              "name": "Spring onion and potato purée soup with 2 napas",
+              "diets": "G, M"
+            }
+          ]
+        },
+        {
+          "title": "Lautasannos 1 Uni",
+          "price": "5,90 € / 8,80 € / 10,40 €",
+          "items": [
+            {
+              "name": "Cheeseburger and French fries",
+              "diets": "L"
+            }
+          ]
+        },
+        {
+          "title": "Lautasannos 2 Uni",
+          "price": "5,90 € / 8,80 € / 10,40 €",
+          "items": [
+            {
+              "name": "Chicken Wings with Chili Sauce, Vegetable Sticks and Aura Cheese Dip, served with French Fries",
+              "diets": "G, L"
+            }
+          ]
+        },
+        {
+          "title": "Lounaspatonki",
+          "price": "3,10 € / 5,50 €",
+          "items": [
+            {
+              "name": "Tuna or Vegan Roast Biif baguette from Bitti",
+              "diets": "M"
+            }
+          ]
+        },
+        {
+          "title": "Lounassalaatti",
+          "price": "3,10 € / 5,90 €",
+          "items": [
+            {
+              "name": "Warm-smoked salmon salad from Bitti",
+              "diets": "G, M"
+            }
+          ]
+        },
+        {
+          "title": "Jälkiruoka",
+          "price": "1,30 €",
+          "items": [
+            {
+              "name": "Cappuccino mousse",
+              "diets": "G, L"
+            }
+          ]
+        }
+      ]
+    },
+    "newton": {
+      "sections": []
+    }
+  },
+  "errors": {}
+}
