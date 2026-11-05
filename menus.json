@@ -1,6 +1,6 @@
 {
-  "date": "2026-11-04",
-  "updated": "2026-11-04T11:03:34.021Z",
+  "date": "2026-11-05",
+  "updated": "2026-11-05T12:59:52.775Z",
   "restaurants": {
     "reaktori": {
       "sections": [
@@ -9,12 +9,8 @@
           "price": "",
           "items": [
             {
-              "name": "Indian-style mushroom and coconut curry",
-              "diets": "*, G, ILM, L, M, Veg, VS"
-            },
-            {
-              "name": "Indian-style spicy rice",
-              "diets": "G, L, M, Veg"
+              "name": "Vegetable bolognaise and pasta casserole (gluten free option is vegetable-bolognaise sauce with rice)",
+              "diets": "*, A, ILM, L, M, Veg"
             }
           ]
         },
@@ -23,8 +19,8 @@
           "price": "",
           "items": [
             {
-              "name": "Indian bean and vegetable soup and turkish yogurt",
-              "diets": "A, G, ILM, L, VS"
+              "name": "Corn soup",
+              "diets": "*, A, ILM, L"
             }
           ]
         },
@@ -43,12 +39,8 @@
           "price": "",
           "items": [
             {
-              "name": "Chicken in tandoori and coconut sauce",
-              "diets": "A, G, L, M, VS"
-            },
-            {
-              "name": "Indian-style spicy rice",
-              "diets": "G, L, M, Veg, VS"
+              "name": "Minced meat and pasta casserole",
+              "diets": "*, A, L"
             }
           ]
         },
@@ -57,21 +49,21 @@
           "price": "",
           "items": [
             {
-              "name": "Indian-style saithe fillet in yoghurt 1pc/portion 3€/extra pc",
-              "diets": "*, A, G, ILM, L"
+              "name": "Tandoori chicken in yogurt sauce",
+              "diets": "*, A, G, L"
             },
             {
-              "name": "Roasted curry and garlic potatoes",
-              "diets": "*, G, ILM, L, M, Veg, VS"
+              "name": "Rice",
+              "diets": "*, G, L, M, Veg"
             }
           ]
         },
         {
           "title": "So Sweet.",
-          "price": "1.15",
+          "price": "1.30",
           "items": [
             {
-              "name": "Mango lassi",
+              "name": "Chocolate mousse, caramel and peanuts",
               "diets": "A, G, L"
             }
           ]
@@ -103,7 +95,7 @@
           "price": "",
           "items": [
             {
-              "name": "Warm smoked rainbow trout salad and marinated potatoes",
+              "name": "Warm smoked salmon salad and marinated potatoes",
               "diets": "A, G, L, M"
             }
           ]
@@ -127,7 +119,7 @@
           "price": "3,10 € / 6,60 € / 9,60 €",
           "items": [
             {
-              "name": "Butter tofu with rice",
+              "name": "Hummus effect: Mushroom and seed balls (12 pcs/person, extra €1 per 4 pcs)with tahini sauce and harissa potatoes",
               "diets": "G, M"
             }
           ]
@@ -137,8 +129,8 @@
           "price": "3,10 € / 6,60 € / 9,60 €",
           "items": [
             {
-              "name": "Minced beef bolognese sauce with penne pasta",
-              "diets": "M"
+              "name": "Pesto-crusted pollock (1 piece/serving, EXTRA €2.50), sour cream sauce and potatoes",
+              "diets": "G, L"
             }
           ]
         },
@@ -147,8 +139,8 @@
           "price": "3,10 € / 6,60 € / 9,60 €",
           "items": [
             {
-              "name": "Ham and bacon hash",
-              "diets": "G, M"
+              "name": "Kebab casserole with jalapeños",
+              "diets": "G, L"
             }
           ]
         },
@@ -157,7 +149,7 @@
           "price": "3,10 € / 6,60 € / 8,50 €",
           "items": [
             {
-              "name": "Spring onion and potato purée soup with 2 napas",
+              "name": "Indian vegetable soup and 2 x napas",
               "diets": "G, M"
             }
           ]
@@ -167,8 +159,8 @@
           "price": "5,90 € / 8,80 € / 10,40 €",
           "items": [
             {
-              "name": "Cheeseburger and French fries",
-              "diets": "L"
+              "name": "Cheeseburger and french fries",
+              "diets": ""
             }
           ]
         },
@@ -177,8 +169,8 @@
           "price": "5,90 € / 8,80 € / 10,40 €",
           "items": [
             {
-              "name": "Chicken Wings with Chili Sauce, Vegetable Sticks and Aura Cheese Dip, served with French Fries",
-              "diets": "G, L"
+              "name": "Hummus Effect: Harissa chicken in pita bread",
+              "diets": "L"
             }
           ]
         },
@@ -187,7 +179,7 @@
           "price": "3,10 € / 5,50 €",
           "items": [
             {
-              "name": "Tuna or Vegan Roast Biif baguette from Bitti",
+              "name": "Chicken-Bacon or Sweet Chili-Tofu baguette from Bitti",
               "diets": "M"
             }
           ]
@@ -197,7 +189,7 @@
           "price": "3,10 € / 5,90 €",
           "items": [
             {
-              "name": "Warm-smoked salmon salad from Bitti",
+              "name": "Salmon salad from Bitti",
               "diets": "G, M"
             }
           ]
@@ -207,8 +199,8 @@
           "price": "1,30 €",
           "items": [
             {
-              "name": "Cappuccino mousse",
-              "diets": "G, L"
+              "name": "Piece of cake",
+              "diets": "L"
             }
           ]
         }
