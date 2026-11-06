@@ -1,26 +1,34 @@
 {
-  "date": "2026-11-05",
-  "updated": "2026-11-05T12:59:52.775Z",
+  "date": "2026-11-06",
+  "updated": "2026-11-06T12:46:37.657Z",
   "restaurants": {
     "reaktori": {
       "sections": [
         {
-          "title": "So Vegan.",
+          "title": "So Green.",
           "price": "",
           "items": [
             {
-              "name": "Vegetable bolognaise and pasta casserole (gluten free option is vegetable-bolognaise sauce with rice)",
-              "diets": "*, A, ILM, L, M, Veg"
+              "name": "Spinach crêpes 3pc/portion 0,90€/extra pc (Gluten free and vegan option is maroccan vegetable patties)",
+              "diets": "*, A, ILM, L"
+            },
+            {
+              "name": "Preserved lingonberry",
+              "diets": "G, L, M, Veg"
+            },
+            {
+              "name": "Mashed potatoes (Vegan option is potatoes)",
+              "diets": "*, A, G, ILM, L"
             }
           ]
         },
         {
-          "title": "So Green Soup.",
+          "title": "So Vegan Soup.",
           "price": "",
           "items": [
             {
-              "name": "Corn soup",
-              "diets": "*, A, ILM, L"
+              "name": "Lentil Soup Thai Style",
+              "diets": "*, G, ILM, L, M, Veg, VS"
             }
           ]
         },
@@ -29,18 +37,8 @@
           "price": "",
           "items": [
             {
-              "name": "Halloum cheese",
-              "diets": "A, G"
-            }
-          ]
-        },
-        {
-          "title": "So Good.",
-          "price": "",
-          "items": [
-            {
-              "name": "Minced meat and pasta casserole",
-              "diets": "*, A, L"
+              "name": "Tofu with herb oil",
+              "diets": "A, G, L, M, Veg"
             }
           ]
         },
@@ -49,12 +47,22 @@
           "price": "",
           "items": [
             {
-              "name": "Tandoori chicken in yogurt sauce",
-              "diets": "*, A, G, L"
+              "name": "Minced meat and pasta casserole",
+              "diets": "A, L"
+            }
+          ]
+        },
+        {
+          "title": "So Tasty.",
+          "price": "",
+          "items": [
+            {
+              "name": "Chicken pan pizza, pineapple & bell pepper 1pc/portion 3€/extra pc",
+              "diets": "A, L"
             },
             {
-              "name": "Rice",
-              "diets": "*, G, L, M, Veg"
+              "name": "Garlic",
+              "diets": "G, L, M, Veg, VS"
             }
           ]
         },
@@ -63,7 +71,7 @@
           "price": "1.30",
           "items": [
             {
-              "name": "Chocolate mousse, caramel and peanuts",
+              "name": "Banana curd dessert",
               "diets": "A, G, L"
             }
           ]
@@ -119,7 +127,7 @@
           "price": "3,10 € / 6,60 € / 9,60 €",
           "items": [
             {
-              "name": "Hummus effect: Mushroom and seed balls (12 pcs/person, extra €1 per 4 pcs)with tahini sauce and harissa potatoes",
+              "name": "Soy and cabbage casserole, mashed lingonberries and potatoes",
               "diets": "G, M"
             }
           ]
@@ -129,8 +137,8 @@
           "price": "3,10 € / 6,60 € / 9,60 €",
           "items": [
             {
-              "name": "Pesto-crusted pollock (1 piece/serving, EXTRA €2.50), sour cream sauce and potatoes",
-              "diets": "G, L"
+              "name": "Chicken lasagnette",
+              "diets": "L"
             }
           ]
         },
@@ -139,8 +147,8 @@
           "price": "3,10 € / 6,60 € / 9,60 €",
           "items": [
             {
-              "name": "Kebab casserole with jalapeños",
-              "diets": "G, L"
+              "name": "Beef patties (2 pcs/person, extra €1.00 per patty), BBQ sauce and potatoes",
+              "diets": "M"
             }
           ]
         },
@@ -149,28 +157,8 @@
           "price": "3,10 € / 6,60 € / 8,50 €",
           "items": [
             {
-              "name": "Indian vegetable soup and 2 x napas",
+              "name": "Carrot purée soup with 2 x napas",
               "diets": "G, M"
-            }
-          ]
-        },
-        {
-          "title": "Lautasannos 1 Uni",
-          "price": "5,90 € / 8,80 € / 10,40 €",
-          "items": [
-            {
-              "name": "Cheeseburger and french fries",
-              "diets": ""
-            }
-          ]
-        },
-        {
-          "title": "Lautasannos 2 Uni",
-          "price": "5,90 € / 8,80 € / 10,40 €",
-          "items": [
-            {
-              "name": "Hummus Effect: Harissa chicken in pita bread",
-              "diets": "L"
             }
           ]
         },
@@ -179,7 +167,7 @@
           "price": "3,10 € / 5,50 €",
           "items": [
             {
-              "name": "Chicken-Bacon or Sweet Chili-Tofu baguette from Bitti",
+              "name": "Sweet Chili baguettes from Bitti",
               "diets": "M"
             }
           ]
