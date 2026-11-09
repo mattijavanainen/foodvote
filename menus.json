@@ -1,34 +1,34 @@
 {
-  "date": "2026-11-06",
-  "updated": "2026-11-06T12:46:37.657Z",
+  "date": "2026-11-09",
+  "updated": "2026-11-09T13:41:54.605Z",
   "restaurants": {
     "reaktori": {
       "sections": [
         {
-          "title": "So Green.",
+          "title": "So Vegan.",
           "price": "",
           "items": [
             {
-              "name": "Spinach crêpes 3pc/portion 0,90€/extra pc (Gluten free and vegan option is maroccan vegetable patties)",
-              "diets": "*, A, ILM, L"
+              "name": "Quinoa steaks 2pc/portion 1,50€/extra pc",
+              "diets": "A, G, ILM, L, M, Veg"
             },
             {
-              "name": "Preserved lingonberry",
-              "diets": "G, L, M, Veg"
+              "name": "Sriracha ghurt",
+              "diets": "*, A, G, L, M, Veg"
             },
             {
-              "name": "Mashed potatoes (Vegan option is potatoes)",
-              "diets": "*, A, G, ILM, L"
+              "name": "Roasted potatoes",
+              "diets": "*, G, ILM, L, M, Veg"
             }
           ]
         },
         {
-          "title": "So Vegan Soup.",
+          "title": "So Green Soup.",
           "price": "",
           "items": [
             {
-              "name": "Lentil Soup Thai Style",
-              "diets": "*, G, ILM, L, M, Veg, VS"
+              "name": "Butternut squash puree soup",
+              "diets": "*, A, G, ILM, L, VS"
             }
           ]
         },
@@ -37,8 +37,22 @@
           "price": "",
           "items": [
             {
-              "name": "Tofu with herb oil",
-              "diets": "A, G, L, M, Veg"
+              "name": "Warm smoked rainbow trout",
+              "diets": "A, G, L, M"
+            }
+          ]
+        },
+        {
+          "title": "So Good.",
+          "price": "",
+          "items": [
+            {
+              "name": "Ham and cheese sauce",
+              "diets": "*, A, G, ILM, L, VS"
+            },
+            {
+              "name": "Organic whole grain pasta",
+              "diets": "*, A, ILM, L, M, Veg"
             }
           ]
         },
@@ -47,22 +61,12 @@
           "price": "",
           "items": [
             {
-              "name": "Minced meat and pasta casserole",
-              "diets": "A, L"
-            }
-          ]
-        },
-        {
-          "title": "So Tasty.",
-          "price": "",
-          "items": [
-            {
-              "name": "Chicken pan pizza, pineapple & bell pepper 1pc/portion 3€/extra pc",
-              "diets": "A, L"
+              "name": "Asian chicken stew and fresh coriander",
+              "diets": "*, A, G, L, M, VS"
             },
             {
-              "name": "Garlic",
-              "diets": "G, L, M, Veg, VS"
+              "name": "Rice",
+              "diets": "*, G, L, M, Veg"
             }
           ]
         },
@@ -71,8 +75,8 @@
           "price": "1.30",
           "items": [
             {
-              "name": "Banana curd dessert",
-              "diets": "A, G, L"
+              "name": "Mango mousse",
+              "diets": "A, G, L, M, Veg"
             }
           ]
         },
@@ -81,20 +85,12 @@
           "price": "",
           "items": [
             {
-              "name": "Grilled pork steak",
-              "diets": "*, G, L, M"
+              "name": "BBQ Chicken toast",
+              "diets": "A, L"
             },
             {
-              "name": "Dark horseradish sauce",
-              "diets": "A, G, L, M"
-            },
-            {
-              "name": "Roasted potatoes",
-              "diets": "*, G, ILM, L, M, Veg"
-            },
-            {
-              "name": "Vegetables of the season",
-              "diets": "G, L, M, Veg"
+              "name": "Country-style potato wedges",
+              "diets": "G, ILM, L, M, Veg"
             }
           ]
         },
@@ -103,8 +99,8 @@
           "price": "",
           "items": [
             {
-              "name": "Warm smoked salmon salad and marinated potatoes",
-              "diets": "A, G, L, M"
+              "name": "Prawn salad with chili",
+              "diets": "*, A, G, L, M"
             }
           ]
         },
@@ -113,8 +109,8 @@
           "price": "",
           "items": [
             {
-              "name": "Chorizo focaccia",
-              "diets": "A, VL"
+              "name": "Panpizza, roasted cauliflower, pesto and cashew nuts",
+              "diets": "A, ILM, L"
             }
           ]
         }
@@ -127,8 +123,8 @@
           "price": "3,10 € / 6,60 € / 9,60 €",
           "items": [
             {
-              "name": "Soy and cabbage casserole, mashed lingonberries and potatoes",
-              "diets": "G, M"
+              "name": "Vebab in a jalapeño-tomato sauce with rice",
+              "diets": "M"
             }
           ]
         },
@@ -137,18 +133,8 @@
           "price": "3,10 € / 6,60 € / 9,60 €",
           "items": [
             {
-              "name": "Chicken lasagnette",
-              "diets": "L"
-            }
-          ]
-        },
-        {
-          "title": "Lounas 2 Uni",
-          "price": "3,10 € / 6,60 € / 9,60 €",
-          "items": [
-            {
-              "name": "Beef patties (2 pcs/person, extra €1.00 per patty), BBQ sauce and potatoes",
-              "diets": "M"
+              "name": "Minced meat sauce with roasted potatoes",
+              "diets": "G, M"
             }
           ]
         },
@@ -157,7 +143,7 @@
           "price": "3,10 € / 6,60 € / 8,50 €",
           "items": [
             {
-              "name": "Carrot purée soup with 2 x napas",
+              "name": "Roasted red pepper soup ja 2 x napas",
               "diets": "G, M"
             }
           ]
@@ -167,7 +153,7 @@
           "price": "3,10 € / 5,50 €",
           "items": [
             {
-              "name": "Sweet Chili baguettes from Bitti",
+              "name": "Roast Beef or Taco seasoned fava bean baguette from Bitti",
               "diets": "M"
             }
           ]
@@ -177,8 +163,8 @@
           "price": "3,10 € / 5,90 €",
           "items": [
             {
-              "name": "Salmon salad from Bitti",
-              "diets": "G, M"
+              "name": "Pesto-Mozzarella salad from Bitti",
+              "diets": "VL"
             }
           ]
         },
@@ -187,8 +173,8 @@
           "price": "1,30 €",
           "items": [
             {
-              "name": "Piece of cake",
-              "diets": "L"
+              "name": "Mint chocolate mousse",
+              "diets": "G, L"
             }
           ]
         }
