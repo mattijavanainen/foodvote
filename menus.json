@@ -1,6 +1,6 @@
 {
-  "date": "2026-11-10",
-  "updated": "2026-11-10T13:20:42.925Z",
+  "date": "2026-11-11",
+  "updated": "2026-11-11T12:32:03.940Z",
   "restaurants": {
     "reaktori": {
       "sections": [
@@ -9,46 +9,8 @@
           "price": "",
           "items": [
             {
-              "name": "Wheat tortilla 1pc/portion 2,50€/extra pc",
-              "diets": "A, L, M, Veg"
-            },
-            {
-              "name": "TexMex -bell pepper filling",
-              "diets": "*, A, ILM, L, M, Veg"
-            },
-            {
-              "name": "(Gluten free option is carrot and quinoa rissoles)",
-              "diets": "G, L, M, Veg"
-            }
-          ]
-        },
-        {
-          "title": "So Green Soup.",
-          "price": "",
-          "items": [
-            {
-              "name": "Sweet potato soup",
-              "diets": "*, A, G, L"
-            }
-          ]
-        },
-        {
-          "title": "So Fresh.",
-          "price": "",
-          "items": [
-            {
-              "name": "Salad cheese",
-              "diets": "A, G, L"
-            }
-          ]
-        },
-        {
-          "title": "So Hungry.",
-          "price": "",
-          "items": [
-            {
-              "name": "Chili con carne (minced meat)",
-              "diets": "*, A, L, M"
+              "name": "Hot and aromatic tofu curry - Madras Tofu",
+              "diets": "*, A, G, ILM, L, M, Veg, VS"
             },
             {
               "name": "Rice",
@@ -57,20 +19,50 @@
           ]
         },
         {
+          "title": "So Vegan Soup.",
+          "price": "",
+          "items": [
+            {
+              "name": "Pureed beetroot soup",
+              "diets": "*, A, G, ILM, L, M, Veg"
+            }
+          ]
+        },
+        {
+          "title": "So Fresh.",
+          "price": "",
+          "items": [
+            {
+              "name": "Sweet chili prawns",
+              "diets": "A, G, L, M"
+            }
+          ]
+        },
+        {
+          "title": "So Hungry.",
+          "price": "",
+          "items": [
+            {
+              "name": "Smoked rainbow trout and cheese sauce",
+              "diets": "*, A, ILM, L"
+            },
+            {
+              "name": "Organic whole grain pasta",
+              "diets": "*, A, ILM, L, M, Veg"
+            }
+          ]
+        },
+        {
           "title": "So Tasty.",
           "price": "",
           "items": [
             {
-              "name": "Crisp saithe fillet 1pc/portion 3€/extra pc (Gluten free option is salmon patties)",
-              "diets": "*, A, ILM, L, M"
-            },
-            {
-              "name": "Tartar yoghurt",
+              "name": "Minced meat and beetroot patties with onion sauce 3pc/portion 0,90€/extra pc",
               "diets": "*, A, G, L"
             },
             {
-              "name": "Mashed potatoes",
-              "diets": "*, A, G, ILM, L"
+              "name": "Roasted potatoes",
+              "diets": "*, G, ILM, L, M, Veg"
             }
           ]
         },
@@ -79,42 +71,8 @@
           "price": "1.30",
           "items": [
             {
-              "name": "Vegan chocolate cake with vanilja mousse",
-              "diets": "A, G, L, Veg"
-            }
-          ]
-        },
-        {
-          "title": "Pop Up Grill lunch (Break Cafe 10:30-13:30)",
-          "price": "",
-          "items": [
-            {
-              "name": "BBQ Chicken toast",
-              "diets": "A, L"
-            },
-            {
-              "name": "Country-style potato wedges",
-              "diets": "G, ILM, L, M, Veg"
-            }
-          ]
-        },
-        {
-          "title": "Pop Up Grill salad (Break Cafe 10:30-13:30)",
-          "price": "",
-          "items": [
-            {
-              "name": "Prawn salad with chili",
-              "diets": "*, A, G, L, M"
-            }
-          ]
-        },
-        {
-          "title": "So Bread. (Break Cafe)",
-          "price": "",
-          "items": [
-            {
-              "name": "Panpizza, roasted cauliflower, pesto and cashew nuts",
-              "diets": "A, ILM, L"
+              "name": "Liquorice curd",
+              "diets": "A, G, L"
             }
           ]
         }
@@ -127,7 +85,7 @@
           "price": "3,10 € / 6,60 € / 9,60 €",
           "items": [
             {
-              "name": "Sweet potato and kale in peanut sauce with rice",
+              "name": "Root vegetable and bean hash",
               "diets": "G, M"
             }
           ]
@@ -137,18 +95,8 @@
           "price": "3,10 € / 6,60 € / 9,60 €",
           "items": [
             {
-              "name": "Pollo Limonello pasta bake",
-              "diets": "L"
-            }
-          ]
-        },
-        {
-          "title": "Lounas 2 Uni",
-          "price": "3,10 € / 6,60 € / 9,60 €",
-          "items": [
-            {
-              "name": "Fish fingers (6 pcs, EXTRA € 0,50/2 pcs.)), tartar sauce and potatoes",
-              "diets": "L"
+              "name": "Lohipyöryköitä (8 pcs/portion, EXTRA 1€/2 kpl), sour cream sauce and rice",
+              "diets": "G, L"
             }
           ]
         },
@@ -157,7 +105,7 @@
           "price": "3,10 € / 6,60 € / 8,50 €",
           "items": [
             {
-              "name": "Broccoli purée soup ja 2 x napas",
+              "name": "Mushroom soup and 2 x napas",
               "diets": "G, M"
             }
           ]
@@ -167,8 +115,8 @@
           "price": "3,10 € / 5,50 €",
           "items": [
             {
-              "name": "Roast Beef, Feta-Tzatziki or Taco seasoned fava bean baguette from Bitti",
-              "diets": "M, VL"
+              "name": "Feta-Tzatziki, Curry-Chicken or Vegan Roast 'Biif' baguette from Bitti",
+              "diets": "VL"
             }
           ]
         },
@@ -187,8 +135,8 @@
           "price": "1,30 €",
           "items": [
             {
-              "name": "Carrot pie",
-              "diets": "L"
+              "name": "Lingonberry caramel quark",
+              "diets": "G, L"
             }
           ]
         }
