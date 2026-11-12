@@ -1,30 +1,30 @@
 {
-  "date": "2026-11-11",
-  "updated": "2026-11-11T12:32:03.940Z",
+  "date": "2026-11-12",
+  "updated": "2026-11-12T13:37:09.361Z",
   "restaurants": {
     "reaktori": {
       "sections": [
         {
-          "title": "So Vegan.",
+          "title": "So Green.",
           "price": "",
           "items": [
             {
-              "name": "Hot and aromatic tofu curry - Madras Tofu",
-              "diets": "*, A, G, ILM, L, M, Veg, VS"
-            },
-            {
-              "name": "Rice",
-              "diets": "*, G, L, M, Veg"
+              "name": "Mifu Sweet & Sour, ask vegan option",
+              "diets": "*, A, G, ILM, L"
             }
           ]
         },
         {
-          "title": "So Vegan Soup.",
+          "title": "So Green Soup.",
           "price": "",
           "items": [
             {
-              "name": "Pureed beetroot soup",
-              "diets": "*, A, G, ILM, L, M, Veg"
+              "name": "Spinach soup",
+              "diets": "*, A, ILM, L"
+            },
+            {
+              "name": "Boiled egg",
+              "diets": "A, G, ILM, L, M"
             }
           ]
         },
@@ -39,26 +39,16 @@
           ]
         },
         {
-          "title": "So Hungry.",
-          "price": "",
-          "items": [
-            {
-              "name": "Smoked rainbow trout and cheese sauce",
-              "diets": "*, A, ILM, L"
-            },
-            {
-              "name": "Organic whole grain pasta",
-              "diets": "*, A, ILM, L, M, Veg"
-            }
-          ]
-        },
-        {
           "title": "So Tasty.",
           "price": "",
           "items": [
             {
-              "name": "Minced meat and beetroot patties with onion sauce 3pc/portion 0,90€/extra pc",
-              "diets": "*, A, G, L"
+              "name": "Minced meat on a stick 3pc/portion, extra 0,90€/pc",
+              "diets": "A, L, M"
+            },
+            {
+              "name": "Chili and sour cream sauce",
+              "diets": "A, G, L"
             },
             {
               "name": "Roasted potatoes",
@@ -71,8 +61,58 @@
           "price": "1.30",
           "items": [
             {
-              "name": "Liquorice curd",
+              "name": "Own kitchen's pancake",
+              "diets": "A, L"
+            },
+            {
+              "name": "Strawberry compote",
+              "diets": "G, L, M, Veg"
+            },
+            {
+              "name": "Whipped cream",
               "diets": "A, G, L"
+            }
+          ]
+        },
+        {
+          "title": "Pop Up Grill lunch (Break Cafe 10:30-13:30)",
+          "price": "",
+          "items": [
+            {
+              "name": "Tender pork and sausage",
+              "diets": "A, G, L, M"
+            },
+            {
+              "name": "Stewed sauerkraut with apple",
+              "diets": "A, G, ILM, L"
+            },
+            {
+              "name": "Roasted cheese potatoes",
+              "diets": "A, G, ILM, L"
+            },
+            {
+              "name": "Vegetables of the season",
+              "diets": "G, L, M, Veg"
+            }
+          ]
+        },
+        {
+          "title": "Pop Up Grill salad (Break Cafe 10:30-13:30)",
+          "price": "",
+          "items": [
+            {
+              "name": "Fried goat cheese and vegetable salad",
+              "diets": "A, G, VL"
+            }
+          ]
+        },
+        {
+          "title": "So Bread. (Break Cafe)",
+          "price": "",
+          "items": [
+            {
+              "name": "Spicy tuna pan bread",
+              "diets": "A, VL"
             }
           ]
         }
@@ -85,8 +125,8 @@
           "price": "3,10 € / 6,60 € / 9,60 €",
           "items": [
             {
-              "name": "Root vegetable and bean hash",
-              "diets": "G, M"
+              "name": "Vegetable lasagna",
+              "diets": "L"
             }
           ]
         },
@@ -95,8 +135,18 @@
           "price": "3,10 € / 6,60 € / 9,60 €",
           "items": [
             {
-              "name": "Lohipyöryköitä (8 pcs/portion, EXTRA 1€/2 kpl), sour cream sauce and rice",
+              "name": "Salmon Soup",
               "diets": "G, L"
+            }
+          ]
+        },
+        {
+          "title": "Lounas 2 Uni",
+          "price": "3,10 € / 6,60 € / 9,60 €",
+          "items": [
+            {
+              "name": "Tex-Mex Chicken Hash",
+              "diets": "G, M"
             }
           ]
         },
@@ -105,7 +155,27 @@
           "price": "3,10 € / 6,60 € / 8,50 €",
           "items": [
             {
-              "name": "Mushroom soup and 2 x napas",
+              "name": "Tomato Soup and 2 x napas",
+              "diets": "G, M"
+            }
+          ]
+        },
+        {
+          "title": "Lautasannos 1 Uni",
+          "price": "5,90 € / 8,80 € / 10,40 €",
+          "items": [
+            {
+              "name": "Pulled Chicken or Bacon Burger with Sweet Potato Fries",
+              "diets": ""
+            }
+          ]
+        },
+        {
+          "title": "Lautasannos 2 Uni",
+          "price": "5,90 € / 8,80 € / 10,40 €",
+          "items": [
+            {
+              "name": "Slow-Cooked Pork Neck with Ranch Mayonnaise, Seasonal Vegetables and Sweet Potato Fries",
               "diets": "G, M"
             }
           ]
@@ -115,8 +185,8 @@
           "price": "3,10 € / 5,50 €",
           "items": [
             {
-              "name": "Feta-Tzatziki, Curry-Chicken or Vegan Roast 'Biif' baguette from Bitti",
-              "diets": "VL"
+              "name": "Curry-Chicken or Vegan Roast 'Biif' baguette from Bitti",
+              "diets": "M"
             }
           ]
         },
@@ -125,8 +195,8 @@
           "price": "3,10 € / 5,90 €",
           "items": [
             {
-              "name": "Pesto-Mozzarella salad from Bitti",
-              "diets": "VL"
+              "name": "Falafel-Hummus salad (VE) FROM Bitti",
+              "diets": "G, M"
             }
           ]
         },
@@ -135,8 +205,8 @@
           "price": "1,30 €",
           "items": [
             {
-              "name": "Lingonberry caramel quark",
-              "diets": "G, L"
+              "name": "Apricot Cheesecake in a glass",
+              "diets": "L"
             }
           ]
         }
