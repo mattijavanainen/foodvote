@@ -1,6 +1,6 @@
 {
-  "date": "2026-11-12",
-  "updated": "2026-11-12T13:37:09.361Z",
+  "date": "2026-11-13",
+  "updated": "2026-11-13T12:55:42.965Z",
   "restaurants": {
     "reaktori": {
       "sections": [
@@ -9,46 +9,12 @@
           "price": "",
           "items": [
             {
-              "name": "Mifu Sweet & Sour, ask vegan option",
+              "name": "Lentil patties, 3 pc/portion, extra 0,90€/pc, ask vegan option",
               "diets": "*, A, G, ILM, L"
-            }
-          ]
-        },
-        {
-          "title": "So Green Soup.",
-          "price": "",
-          "items": [
-            {
-              "name": "Spinach soup",
-              "diets": "*, A, ILM, L"
             },
             {
-              "name": "Boiled egg",
-              "diets": "A, G, ILM, L, M"
-            }
-          ]
-        },
-        {
-          "title": "So Fresh.",
-          "price": "",
-          "items": [
-            {
-              "name": "Sweet chili prawns",
-              "diets": "A, G, L, M"
-            }
-          ]
-        },
-        {
-          "title": "So Tasty.",
-          "price": "",
-          "items": [
-            {
-              "name": "Minced meat on a stick 3pc/portion, extra 0,90€/pc",
-              "diets": "A, L, M"
-            },
-            {
-              "name": "Chili and sour cream sauce",
-              "diets": "A, G, L"
+              "name": "Basil and garlic yoghurt",
+              "diets": "*, A, G, ILM, L, VS"
             },
             {
               "name": "Roasted potatoes",
@@ -57,20 +23,56 @@
           ]
         },
         {
+          "title": "So Green Soup.",
+          "price": "",
+          "items": [
+            {
+              "name": "Cheese and bell pepper soup",
+              "diets": "*, A, G, ILM, L"
+            }
+          ]
+        },
+        {
+          "title": "So Fresh.",
+          "price": "",
+          "items": [
+            {
+              "name": "Salad cheese",
+              "diets": "A, G, L"
+            }
+          ]
+        },
+        {
+          "title": "So Good.",
+          "price": "",
+          "items": [
+            {
+              "name": "Frankurter stroganoff",
+              "diets": "*, A, L"
+            },
+            {
+              "name": "Boiled potatoes",
+              "diets": "*, A, G, ILM, L, M, Veg"
+            }
+          ]
+        },
+        {
+          "title": "So Hungry.",
+          "price": "",
+          "items": [
+            {
+              "name": "Own kitchen's lasagnette",
+              "diets": "A, L, VS"
+            }
+          ]
+        },
+        {
           "title": "So Sweet.",
           "price": "1.30",
           "items": [
             {
-              "name": "Own kitchen's pancake",
-              "diets": "A, L"
-            },
-            {
-              "name": "Strawberry compote",
-              "diets": "G, L, M, Veg"
-            },
-            {
-              "name": "Whipped cream",
-              "diets": "A, G, L"
+              "name": "Strawberry mousse",
+              "diets": "A, G, L, M, Veg"
             }
           ]
         },
@@ -125,8 +127,8 @@
           "price": "3,10 € / 6,60 € / 9,60 €",
           "items": [
             {
-              "name": "Vegetable lasagna",
-              "diets": "L"
+              "name": "Chili chocolate blackbean stew, basmati rice, soy yogurt",
+              "diets": "G"
             }
           ]
         },
@@ -135,8 +137,8 @@
           "price": "3,10 € / 6,60 € / 9,60 €",
           "items": [
             {
-              "name": "Salmon Soup",
-              "diets": "G, L"
+              "name": "Lasagnette",
+              "diets": "L"
             }
           ]
         },
@@ -145,8 +147,8 @@
           "price": "3,10 € / 6,60 € / 9,60 €",
           "items": [
             {
-              "name": "Tex-Mex Chicken Hash",
-              "diets": "G, M"
+              "name": "Palak paneer",
+              "diets": "G"
             }
           ]
         },
@@ -155,7 +157,7 @@
           "price": "3,10 € / 6,60 € / 8,50 €",
           "items": [
             {
-              "name": "Tomato Soup and 2 x napas",
+              "name": "Pumpkin soup",
               "diets": "G, M"
             }
           ]
@@ -165,7 +167,7 @@
           "price": "5,90 € / 8,80 € / 10,40 €",
           "items": [
             {
-              "name": "Pulled Chicken or Bacon Burger with Sweet Potato Fries",
+              "name": "Korea Beef Burger ja Lohkoperunoita",
               "diets": ""
             }
           ]
@@ -175,27 +177,7 @@
           "price": "5,90 € / 8,80 € / 10,40 €",
           "items": [
             {
-              "name": "Slow-Cooked Pork Neck with Ranch Mayonnaise, Seasonal Vegetables and Sweet Potato Fries",
-              "diets": "G, M"
-            }
-          ]
-        },
-        {
-          "title": "Lounaspatonki",
-          "price": "3,10 € / 5,50 €",
-          "items": [
-            {
-              "name": "Curry-Chicken or Vegan Roast 'Biif' baguette from Bitti",
-              "diets": "M"
-            }
-          ]
-        },
-        {
-          "title": "Lounassalaatti",
-          "price": "3,10 € / 5,90 €",
-          "items": [
-            {
-              "name": "Falafel-Hummus salad (VE) FROM Bitti",
+              "name": "Broiler Gyros, kauden kasviksia ja Lohkoperunoita",
               "diets": "G, M"
             }
           ]
@@ -205,7 +187,7 @@
           "price": "1,30 €",
           "items": [
             {
-              "name": "Apricot Cheesecake in a glass",
+              "name": "Brownie",
               "diets": "L"
             }
           ]
