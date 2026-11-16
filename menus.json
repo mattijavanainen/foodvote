@@ -1,20 +1,20 @@
 {
-  "date": "2026-11-13",
-  "updated": "2026-11-13T12:55:42.965Z",
+  "date": "2026-11-16",
+  "updated": "2026-11-16T13:26:35.269Z",
   "restaurants": {
     "reaktori": {
       "sections": [
         {
-          "title": "So Green.",
+          "title": "So Vegan.",
           "price": "",
           "items": [
             {
-              "name": "Lentil patties, 3 pc/portion, extra 0,90€/pc, ask vegan option",
-              "diets": "*, A, G, ILM, L"
+              "name": "Beetroot croquettes 6pc/portion, extra 0,50€/pc",
+              "diets": "*, G, ILM, L, M, Veg"
             },
             {
-              "name": "Basil and garlic yoghurt",
-              "diets": "*, A, G, ILM, L, VS"
+              "name": "Ghurt sauce with mustard relish",
+              "diets": "*, A, G, L, M, Veg"
             },
             {
               "name": "Roasted potatoes",
@@ -27,7 +27,7 @@
           "price": "",
           "items": [
             {
-              "name": "Cheese and bell pepper soup",
+              "name": "Pureed cauliflower soup",
               "diets": "*, A, G, ILM, L"
             }
           ]
@@ -37,22 +37,8 @@
           "price": "",
           "items": [
             {
-              "name": "Salad cheese",
-              "diets": "A, G, L"
-            }
-          ]
-        },
-        {
-          "title": "So Good.",
-          "price": "",
-          "items": [
-            {
-              "name": "Frankurter stroganoff",
-              "diets": "*, A, L"
-            },
-            {
-              "name": "Boiled potatoes",
-              "diets": "*, A, G, ILM, L, M, Veg"
+              "name": "Herb marinated tofu",
+              "diets": "A, G, L, M, Veg"
             }
           ]
         },
@@ -61,8 +47,26 @@
           "price": "",
           "items": [
             {
-              "name": "Own kitchen's lasagnette",
-              "diets": "A, L, VS"
+              "name": "Coconut-flavored chicken and noodles",
+              "diets": "*, A, L"
+            }
+          ]
+        },
+        {
+          "title": "So Tasty.",
+          "price": "",
+          "items": [
+            {
+              "name": "Asian fish patty 3pc/portion, extra 0,90€/pc",
+              "diets": "A, G, ILM, L"
+            },
+            {
+              "name": "Wasabi-flavored pea yoghurt",
+              "diets": "*, A, G, ILM, L"
+            },
+            {
+              "name": "Roasted potatoes",
+              "diets": "*, G, ILM, L, M, Veg"
             }
           ]
         },
@@ -71,7 +75,7 @@
           "price": "1.30",
           "items": [
             {
-              "name": "Strawberry mousse",
+              "name": "Blackcurrant and raspberry mousse",
               "diets": "A, G, L, M, Veg"
             }
           ]
@@ -81,20 +85,8 @@
           "price": "",
           "items": [
             {
-              "name": "Tender pork and sausage",
+              "name": "Chicken & chips",
               "diets": "A, G, L, M"
-            },
-            {
-              "name": "Stewed sauerkraut with apple",
-              "diets": "A, G, ILM, L"
-            },
-            {
-              "name": "Roasted cheese potatoes",
-              "diets": "A, G, ILM, L"
-            },
-            {
-              "name": "Vegetables of the season",
-              "diets": "G, L, M, Veg"
             }
           ]
         },
@@ -103,8 +95,8 @@
           "price": "",
           "items": [
             {
-              "name": "Fried goat cheese and vegetable salad",
-              "diets": "A, G, VL"
+              "name": "Jerk Chicken salad",
+              "diets": "G, L, M, VS"
             }
           ]
         },
@@ -113,8 +105,8 @@
           "price": "",
           "items": [
             {
-              "name": "Spicy tuna pan bread",
-              "diets": "A, VL"
+              "name": "Contryham and horseradish mayonnaise baguette",
+              "diets": "A, L, M, VS"
             }
           ]
         }
@@ -127,8 +119,8 @@
           "price": "3,10 € / 6,60 € / 9,60 €",
           "items": [
             {
-              "name": "Chili chocolate blackbean stew, basmati rice, soy yogurt",
-              "diets": "G"
+              "name": "North African vegetable stew, pita bread (1pc./portion, EXTRA €1.00) and soy gurt",
+              "diets": "M"
             }
           ]
         },
@@ -137,8 +129,8 @@
           "price": "3,10 € / 6,60 € / 9,60 €",
           "items": [
             {
-              "name": "Lasagnette",
-              "diets": "L"
+              "name": "Herb-roasted chicken thigh (1 pc./portion, EXTRA 2,00€), bell pepper sauce and potatoes",
+              "diets": "G, L"
             }
           ]
         },
@@ -147,8 +139,8 @@
           "price": "3,10 € / 6,60 € / 9,60 €",
           "items": [
             {
-              "name": "Palak paneer",
-              "diets": "G"
+              "name": "Tandoori pork and rice",
+              "diets": "G, M"
             }
           ]
         },
@@ -157,7 +149,7 @@
           "price": "3,10 € / 6,60 € / 8,50 €",
           "items": [
             {
-              "name": "Pumpkin soup",
+              "name": "Parsnip purée soup and 2 x napas",
               "diets": "G, M"
             }
           ]
@@ -167,8 +159,8 @@
           "price": "5,90 € / 8,80 € / 10,40 €",
           "items": [
             {
-              "name": "Korea Beef Burger ja Lohkoperunoita",
-              "diets": ""
+              "name": "Aura blue cheese burger and french fries",
+              "diets": "L"
             }
           ]
         },
@@ -177,7 +169,27 @@
           "price": "5,90 € / 8,80 € / 10,40 €",
           "items": [
             {
-              "name": "Broiler Gyros, kauden kasviksia ja Lohkoperunoita",
+              "name": "Grilled chicken breast with Béarnaise sauce, roasted vegetables and French fries",
+              "diets": "G, M"
+            }
+          ]
+        },
+        {
+          "title": "Lounaspatonki",
+          "price": "3,10 € / 5,50 €",
+          "items": [
+            {
+              "name": "Ham-Meetwurst or Curry-Chicken baguette from Bitti",
+              "diets": "M"
+            }
+          ]
+        },
+        {
+          "title": "Lounassalaatti",
+          "price": "3,10 € / 5,90 €",
+          "items": [
+            {
+              "name": "Kana- tacosalaatti Bitistä",
               "diets": "G, M"
             }
           ]
@@ -187,8 +199,8 @@
           "price": "1,30 €",
           "items": [
             {
-              "name": "Brownie",
-              "diets": "L"
+              "name": "Pineapple quark",
+              "diets": "G, L"
             }
           ]
         }
