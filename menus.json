@@ -1,20 +1,24 @@
 {
-  "date": "2026-11-17",
-  "updated": "2026-11-17T14:12:40.713Z",
+  "date": "2026-11-18",
+  "updated": "2026-11-18T13:44:25.055Z",
   "restaurants": {
     "reaktori": {
       "sections": [
         {
-          "title": "So Vegan.",
+          "title": "So Green.",
           "price": "",
           "items": [
             {
-              "name": "Falafel patties 2pc/portion, extra 1,50€/pc",
+              "name": "Carrot crêpes 3pc/portion 0,90€/extra pc (Gluten free and vegan option is available)",
+              "diets": "*, A, ILM, L"
+            },
+            {
+              "name": "Preserved lingonberry",
               "diets": "G, L, M, Veg"
             },
             {
-              "name": "Rice",
-              "diets": "*, G, L, M, Veg"
+              "name": "Mashed potatoes",
+              "diets": "*, A, G, ILM, L"
             }
           ]
         },
@@ -23,18 +27,8 @@
           "price": "",
           "items": [
             {
-              "name": "Spicy lentil soup",
+              "name": "Tomato and lentil soup",
               "diets": "*, A, G, ILM, L, M, Veg, VS"
-            }
-          ]
-        },
-        {
-          "title": "So Fresh.",
-          "price": "",
-          "items": [
-            {
-              "name": "Salad cheese",
-              "diets": "A, G, L"
             }
           ]
         },
@@ -43,40 +37,32 @@
           "price": "",
           "items": [
             {
-              "name": "Chicken in teriyaki sauce",
-              "diets": "*, A, G, ILM, L, M, VS"
-            },
-            {
-              "name": "Rice",
-              "diets": "*, G, L, M, Veg"
+              "name": "Tuna and pasta casserole",
+              "diets": "*, A, ILM, L, VS"
             }
           ]
         },
         {
-          "title": "So Hungry.",
+          "title": "So Tasty.",
           "price": "",
           "items": [
             {
-              "name": "Asian fish patty 3pc/portion, extra 0,90€/pc",
-              "diets": "A, G, ILM, L"
+              "name": "Cheese gratinated baked sausage 1pc/portion 2,50€/extra pc",
+              "diets": "A, G, L"
             },
             {
-              "name": "Wasabi-flavored pea yoghurt",
+              "name": "Mashed potatoes",
               "diets": "*, A, G, ILM, L"
-            },
-            {
-              "name": "Rice",
-              "diets": "*, G, L, M, Veg"
             }
           ]
         },
         {
           "title": "So Sweet.",
-          "price": "1.30",
+          "price": "1.15",
           "items": [
             {
-              "name": "Marianne candy and curd dessert",
-              "diets": "A, L"
+              "name": "Chocolate mousse and roasted white chocolate",
+              "diets": "A, G"
             }
           ]
         },
@@ -85,8 +71,20 @@
           "price": "",
           "items": [
             {
-              "name": "Chicken & chips",
-              "diets": "A, G, L, M"
+              "name": "Roasted rainbow trout",
+              "diets": "*, A, G, ILM, L, M"
+            },
+            {
+              "name": "Lemon mayonnaise",
+              "diets": "A, G, ILM, L"
+            },
+            {
+              "name": "Mashed potatoes with Dijon",
+              "diets": "*, A, G, ILM, L"
+            },
+            {
+              "name": "Vegetables of the season",
+              "diets": "G, L, M, Veg"
             }
           ]
         },
@@ -95,8 +93,8 @@
           "price": "",
           "items": [
             {
-              "name": "Jerk Chicken salad",
-              "diets": "G, L, M, VS"
+              "name": "Caesar salad with prawns",
+              "diets": "A, L"
             }
           ]
         },
@@ -105,8 +103,8 @@
           "price": "",
           "items": [
             {
-              "name": "Contryham and horseradish mayonnaise baguette",
-              "diets": "A, L, M, VS"
+              "name": "Vöner pan pizza, harissa & rocket",
+              "diets": "A, L, M, Veg"
             }
           ]
         }
@@ -119,7 +117,7 @@
           "price": "3,10 € / 6,60 € / 9,60 €",
           "items": [
             {
-              "name": "Tomato and soy sauce and potatoes",
+              "name": "Chickpea chili stew, lemon soy yogurt sauce and rice",
               "diets": "G, M"
             }
           ]
@@ -129,8 +127,8 @@
           "price": "3,10 € / 6,60 € / 9,60 €",
           "items": [
             {
-              "name": "Chicken drumsticks (3 pcs./portion, EXTRA 0,50€/kpl ), chili-mayonnaise and rice",
-              "diets": "G, M"
+              "name": "Salmon fish cakes (8 pcs./person, EXTRA €1.00/2pcs.), chive sour cream sauce and potatoes",
+              "diets": "G, L"
             }
           ]
         },
@@ -139,8 +137,8 @@
           "price": "3,10 € / 6,60 € / 9,60 €",
           "items": [
             {
-              "name": "Minced meat and macaroni casserole",
-              "diets": "L"
+              "name": "Butter chicken and rice",
+              "diets": "G, L"
             }
           ]
         },
@@ -149,7 +147,7 @@
           "price": "3,10 € / 6,60 € / 8,50 €",
           "items": [
             {
-              "name": "Sweet potato soup and 2 x napas",
+              "name": "Cauliflower and broccoli soup and 2 x napas",
               "diets": "G, M"
             }
           ]
@@ -159,18 +157,18 @@
           "price": "5,90 € / 8,80 € / 10,40 €",
           "items": [
             {
-              "name": "Aura burger and french fries",
-              "diets": "L"
+              "name": "Cheese burger and potatoes",
+              "diets": ""
             }
           ]
         },
         {
-          "title": "Lounaspatonki",
-          "price": "3,10 € / 5,50 €",
+          "title": "Lautasannos 2 Uni",
+          "price": "5,90 € / 8,80 € / 10,40 €",
           "items": [
             {
-              "name": "Curry-Chicken, Basil-Tofu or Tomato-Mozzarella baguette from Bitti",
-              "diets": ""
+              "name": "Salmon Poke Bowl",
+              "diets": "G, M"
             }
           ]
         },
@@ -179,8 +177,18 @@
           "price": "3,10 € / 5,90 €",
           "items": [
             {
-              "name": "Chicken Taco Salad",
+              "name": "Kana- tacosalaatti Bitistä",
               "diets": "G, M"
+            }
+          ]
+        },
+        {
+          "title": "Lounaspatonki",
+          "price": "3,10 € / 5,50 €",
+          "items": [
+            {
+              "name": "Ham-Cheddar, Tomato-Mozzarella or Basil-Tofu baguette from Bitti",
+              "diets": "L"
             }
           ]
         },
@@ -189,8 +197,8 @@
           "price": "1,30 €",
           "items": [
             {
-              "name": "Caramel Cheesecake in a glass (vegan)",
-              "diets": "M"
+              "name": "Cookies&cream",
+              "diets": "L"
             }
           ]
         }
