@@ -1,6 +1,6 @@
 {
-  "date": "2026-11-19",
-  "updated": "2026-11-19T14:12:32.431Z",
+  "date": "2026-11-20",
+  "updated": "2026-11-20T13:54:21.375Z",
   "restaurants": {
     "reaktori": {
       "sections": [
@@ -9,12 +9,16 @@
           "price": "",
           "items": [
             {
-              "name": "Georgian cabbage casserole (vegan option is falafel patties)",
-              "diets": "A, G, ILM, L, VS"
+              "name": "Beetroot falafel patties 4pc/portion, extra 0,70€/pc",
+              "diets": "G, ILM, L, M, Veg"
             },
             {
-              "name": "Rice",
-              "diets": "*, G, L, M, Veg"
+              "name": "Cauliflower Tzatziki",
+              "diets": "A, G, ILM, L, M, Veg, VS"
+            },
+            {
+              "name": "Mashed potatoes (vegan option is rice)",
+              "diets": "*, A, G, ILM, L"
             }
           ]
         },
@@ -23,8 +27,8 @@
           "price": "",
           "items": [
             {
-              "name": "Lentil puree soup",
-              "diets": "*, A, G, ILM, L"
+              "name": "Corn and sweet potato soup",
+              "diets": "*, A, G, L, VS"
             }
           ]
         },
@@ -33,22 +37,22 @@
           "price": "",
           "items": [
             {
-              "name": "Jerk chicken",
-              "diets": "A, G, L, M, VS"
+              "name": "Salad cheese",
+              "diets": "A, G, L"
             }
           ]
         },
         {
-          "title": "So Hungry.",
+          "title": "So Good.",
           "price": "",
           "items": [
             {
-              "name": "Kebab and tomato sauce with vegetables",
-              "diets": "G, L, M"
+              "name": "Meatballs with brown sauce 6pc/portion, extra 0,50€/pc (gluten free option is oven baked sausage)",
+              "diets": "*, A, L"
             },
             {
-              "name": "Rice",
-              "diets": "*, G, L, M, Veg"
+              "name": "Mashed potatoes",
+              "diets": "*, A, G, ILM, L"
             }
           ]
         },
@@ -57,8 +61,12 @@
           "price": "",
           "items": [
             {
-              "name": "Tuna and pasta casserole",
-              "diets": "A, L, VS"
+              "name": "Indian yoghurt fish 1pc/portion, extra 3€/pc",
+              "diets": "*, A, G, L"
+            },
+            {
+              "name": "Mashed potatoes",
+              "diets": "*, A, G, ILM, L"
             }
           ]
         },
@@ -67,8 +75,8 @@
           "price": "1.15",
           "items": [
             {
-              "name": "Millionaire’s cake with caramel mousse",
-              "diets": "A, VL"
+              "name": "Chocolate and mocha pie (dessert included with children's lunch)",
+              "diets": "A, L"
             }
           ]
         },
@@ -123,7 +131,7 @@
           "price": "3,10 € / 6,60 € / 9,60 €",
           "items": [
             {
-              "name": "Mediterranean-Style Baked Pasta",
+              "name": "Tofu and vegetable-filled tortillas (2 pieces per portion, EXTRA €0.50), tomato salsa and rice",
               "diets": "M"
             }
           ]
@@ -133,18 +141,8 @@
           "price": "3,10 € / 6,60 € / 9,60 €",
           "items": [
             {
-              "name": "Hash with Fried Egg (1 egg/person, extra €0.50)",
-              "diets": "G, M"
-            }
-          ]
-        },
-        {
-          "title": "Lounas 2 Uni",
-          "price": "3,10 € / 6,60 € / 9,60 €",
-          "items": [
-            {
-              "name": "Spicy Chicken Chili Stew with Rice",
-              "diets": "G, M"
+              "name": "Chicken Kyiv (1 pc/portion, EXTRA €2.50) or chicken nuggets (7 pcs/person, EXTRA 1€/4 pcs.), cucumber mayo and roasted potatoes",
+              "diets": "L"
             }
           ]
         },
@@ -153,7 +151,7 @@
           "price": "3,10 € / 6,60 € / 8,50 €",
           "items": [
             {
-              "name": "Puréed Salsify Soup and 2 x napas",
+              "name": "Asparagus soup and 2 x napas",
               "diets": "G, M"
             }
           ]
@@ -163,8 +161,8 @@
           "price": "5,90 € / 8,80 € / 10,40 €",
           "items": [
             {
-              "name": "Cheeseburger with Potato Wedges",
-              "diets": "L"
+              "name": "Bacon burger and French fries",
+              "diets": ""
             }
           ]
         },
@@ -173,7 +171,7 @@
           "price": "5,90 € / 8,80 € / 10,40 €",
           "items": [
             {
-              "name": "Kebab Wrap with Potato Wedges",
+              "name": "Caesar salad with shrimp",
               "diets": "L"
             }
           ]
@@ -183,8 +181,8 @@
           "price": "3,10 € / 5,50 €",
           "items": [
             {
-              "name": "Ham-Cheddar, Vebab or Chicken-Bacon baguette from Bitti",
-              "diets": "L"
+              "name": "Chicken-Bacon or Vebab baguette from Bitti",
+              "diets": "M"
             }
           ]
         },
@@ -193,7 +191,7 @@
           "price": "3,10 € / 5,90 €",
           "items": [
             {
-              "name": "Tuna Salad from Bitti",
+              "name": "Tuna salad from Biti",
               "diets": "G, M"
             }
           ]
@@ -203,7 +201,7 @@
           "price": "1,30 €",
           "items": [
             {
-              "name": "Berry pie",
+              "name": "Pancakes",
               "diets": "L"
             }
           ]
