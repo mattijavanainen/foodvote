@@ -1,6 +1,6 @@
 {
-  "date": "2026-11-23",
-  "updated": "2026-11-23T15:46:59.740Z",
+  "date": "2026-11-24",
+  "updated": "2026-11-24T15:38:38.620Z",
   "restaurants": {
     "reaktori": {
       "sections": [
@@ -9,8 +9,8 @@
           "price": "",
           "items": [
             {
-              "name": "Carrot crepes 3pc/portion, extra 0,90€/pc",
-              "diets": "*, A, ILM, L"
+              "name": "Lentil and tandoori curry with Gold&Green® strips (gluten free option is falafel patties)",
+              "diets": "*, A, ILM, L, M, Veg, VS"
             },
             {
               "name": "Rice",
@@ -23,8 +23,8 @@
           "price": "",
           "items": [
             {
-              "name": "Smoked cheese soup",
-              "diets": "A, G, ILM, L"
+              "name": "Cheese and vegetable purée soup",
+              "diets": "*, A, G, ILM, L"
             }
           ]
         },
@@ -43,8 +43,8 @@
           "price": "",
           "items": [
             {
-              "name": "Creamy ham and potato casserole",
-              "diets": "*, A, G, ILM, L"
+              "name": "Kebab and pasta casserole",
+              "diets": "*, A, L, VS"
             }
           ]
         },
@@ -53,12 +53,16 @@
           "price": "",
           "items": [
             {
-              "name": "Chicken rissoles with apple and curry sauce 6pc/portion, extra 0,50€/pc",
-              "diets": "*, A, L, VS"
+              "name": "Crispy seed-coated fish 1pc/portion, extra 3€/pc (gluten free option is fish patties)",
+              "diets": "*, A, ILM, L, M"
             },
             {
-              "name": "Rice",
-              "diets": "*, G, L, M, Veg"
+              "name": "Dill yoghurt",
+              "diets": "*, A, G, ILM, L"
+            },
+            {
+              "name": "Roasted potatoes",
+              "diets": "*, G, ILM, L, M, Veg"
             }
           ]
         },
@@ -67,7 +71,7 @@
           "price": "1.15",
           "items": [
             {
-              "name": "Marshmallow curd & caramel",
+              "name": "Passionfruit panna cotta",
               "diets": "A, G, L"
             }
           ]
@@ -123,18 +127,8 @@
           "price": "3,10 € / 6,60 € / 9,60 €",
           "items": [
             {
-              "name": "Mushroom&seed ball (10pcs./person), coriander soy yogurt and sweet potato fries",
+              "name": "Palak Paneer with Tofu and Rice",
               "diets": "G, M"
-            }
-          ]
-        },
-        {
-          "title": "Lounas Uni 1",
-          "price": "3,10 € / 6,60 € / 9,60 €",
-          "items": [
-            {
-              "name": "Spinach pancakes (8 pcs/person, EXTRA 0,20€/pcs), lingonberry mash and mashed potatoes",
-              "diets": "L"
             }
           ]
         },
@@ -143,8 +137,8 @@
           "price": "3,10 € / 6,60 € / 9,60 €",
           "items": [
             {
-              "name": "Fish fingers (5 pcs./person, EXTRA 1,50€/2pcs.), ranch sauce and rice",
-              "diets": "G, L"
+              "name": "Chicken lasagnette",
+              "diets": "L"
             }
           ]
         },
@@ -153,7 +147,7 @@
           "price": "3,10 € / 6,60 € / 8,50 €",
           "items": [
             {
-              "name": "Root vegetable purée soup and 2 x napas",
+              "name": "Roasted bell pepper soup and 2 x napas",
               "diets": "G, M"
             }
           ]
@@ -183,7 +177,7 @@
           "price": "3,10 € / 5,50 €",
           "items": [
             {
-              "name": "Kinkku-Meetwursti tai Curry-Tofu patonki Bitistä",
+              "name": "Tuna or Taco seasoned fava bean baguette from Bitti",
               "diets": "M"
             }
           ]
@@ -193,7 +187,7 @@
           "price": "3,10 € / 5,90 €",
           "items": [
             {
-              "name": "Kreikkalainen salaatti Bitistä",
+              "name": "Greek salad from Bitti",
               "diets": "G, L"
             }
           ]
@@ -203,8 +197,8 @@
           "price": "1,30 €",
           "items": [
             {
-              "name": "Strawberry quark dessert",
-              "diets": "G, L"
+              "name": "Brownie",
+              "diets": "L"
             }
           ]
         }
