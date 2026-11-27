@@ -1,6 +1,6 @@
 {
-  "date": "2026-11-26",
-  "updated": "2026-11-26T14:50:27.843Z",
+  "date": "2026-11-27",
+  "updated": "2026-11-27T14:49:19.191Z",
   "restaurants": {
     "reaktori": {
       "sections": [
@@ -9,12 +9,16 @@
           "price": "",
           "items": [
             {
-              "name": "Halloum in spicy tomato and yoghurt sauce - Shahi Paneer (vegan spicy tofu sauce available)",
-              "diets": "*, A, G, ILM, VS"
+              "name": "Carrot and quinoa rissoles 6pc/portion, extra 0,50€/pc",
+              "diets": "*, G, ILM, L, M, Veg"
             },
             {
-              "name": "Rice",
-              "diets": "*, G, L, M, Veg"
+              "name": "Roasted potatoes",
+              "diets": "*, G, ILM, L, M, Veg"
+            },
+            {
+              "name": "Harissa flavoured yoghurt (vegan sauce available)",
+              "diets": "A, G, ILM, L"
             }
           ]
         },
@@ -23,8 +27,8 @@
           "price": "",
           "items": [
             {
-              "name": "Pureed pea soup",
-              "diets": "*, A, G, ILM, L, M, Veg"
+              "name": "Forest mushroom soup",
+              "diets": "A, G, ILM, L, M, Veg"
             }
           ]
         },
@@ -33,22 +37,8 @@
           "price": "",
           "items": [
             {
-              "name": "Roasted rainbow trout",
-              "diets": "*, A, G, ILM, L, M"
-            }
-          ]
-        },
-        {
-          "title": "So Good.",
-          "price": "",
-          "items": [
-            {
-              "name": "Hot and aromatic chicken curry - Madras Chicken",
-              "diets": "*, A, G, ILM, L, VS"
-            },
-            {
-              "name": "Rice",
-              "diets": "*, G, L, M, Veg"
+              "name": "Salad cheese",
+              "diets": "A, G, L"
             }
           ]
         },
@@ -57,8 +47,8 @@
           "price": "",
           "items": [
             {
-              "name": "Meat and macaroni casserole",
-              "diets": "A, L"
+              "name": "Tuna and leaf spinach lasagnette",
+              "diets": "*, A, L, VS"
             }
           ]
         },
@@ -67,8 +57,8 @@
           "price": "1.15",
           "items": [
             {
-              "name": "Marianne cookie trifle with kiwi",
-              "diets": "A, L, Veg"
+              "name": "Banana curd dessert",
+              "diets": "A, G, L"
             }
           ]
         },
@@ -111,18 +101,8 @@
           "price": "3,10 € / 6,60 € / 9,60 €",
           "items": [
             {
-              "name": "Chili-butternut Squash, Beans Rice, Hummus and Peanuts",
+              "name": "Baked Potato with BBQ-Seasoned Tofu Filling",
               "diets": "G, M"
-            }
-          ]
-        },
-        {
-          "title": "Lounas Uni 1",
-          "price": "3,10 € / 6,60 € / 9,60 €",
-          "items": [
-            {
-              "name": "Pea Soup (also vegan available), Pancake and Jam",
-              "diets": "L"
             }
           ]
         },
@@ -131,7 +111,7 @@
           "price": "3,10 € / 6,60 € / 9,60 €",
           "items": [
             {
-              "name": "Sausage sauce and Mashed Potatoes",
+              "name": "Chicken Tikka Masala with basmati rice",
               "diets": "G, L"
             }
           ]
@@ -141,7 +121,7 @@
           "price": "3,10 € / 6,60 € / 8,50 €",
           "items": [
             {
-              "name": "Tomato, Chili and Coriander Soup and 2 x napas",
+              "name": "Carrot purée soup and 2 × napas",
               "diets": "G, M"
             }
           ]
@@ -151,18 +131,18 @@
           "price": "5,90 € / 8,80 € / 10,40 €",
           "items": [
             {
-              "name": "Cheeseburger with potatoes",
-              "diets": ""
+              "name": "Korea Burger and potato wedges",
+              "diets": "M"
             }
           ]
         },
         {
-          "title": "Lounassalaatti",
+          "title": "Lautasannos 2 Uni",
           "price": "5,90 € / 8,80 € / 10,40 €",
           "items": [
             {
-              "name": "Chicken Caesar Salad from Hot Kitchen",
-              "diets": ""
+              "name": "Chicken Gyros with potato wedges",
+              "diets": "G, M"
             }
           ]
         },
@@ -171,7 +151,7 @@
           "price": "1,30 €",
           "items": [
             {
-              "name": "Layered raspberry and liquorice dessert",
+              "name": "Raspberry-Liquorice Layered Dessert",
               "diets": "L"
             }
           ]
